@@ -1,7 +1,7 @@
 # base image  
 FROM python:3.8   
 # setup environment variable  
-ENV DockerHOME=/home//home/mario/Desktop/django-projekt/myproject
+ENV DockerHOME=/home/mario/Desktop/django-projekt/myproject
 
 # set work directory  
 RUN mkdir -p $DockerHOME  
